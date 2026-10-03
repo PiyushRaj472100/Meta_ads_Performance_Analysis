@@ -6,10 +6,12 @@
 
 This project focuses on cleaning, transforming, and analyzing a Meta Ads campaign dataset containing:
 
-- 10000+ rows (Ads)
+- 10000+ rows (Ads) (Note: A sample dataset is provided in this repository due to size constraints)
 - ~50 structured columns (after preprocessing)
 - Embedded JSON targeting specifications
 - Campaign, Ad Set, and Ad-level performance metrics
+
+> **Note on Repository Contents:** The original dataset used for the full analysis (`ads_dataset - Dataset.csv`) is not included in this repository. Instead, we have provided a sample dataset (`meta_ads_with_json_dataset_sample.xlsx`). The Jupyter Notebook (`META_ads_dataset_data_cleaning_insight_eda.ipynb`) has been designed to gracefully handle this sample dataset by skipping over operations that require columns missing from the sample.
 
 The dataset required preprocessing due to:
 - Semi-structured JSON columns
